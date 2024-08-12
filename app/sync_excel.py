@@ -126,8 +126,13 @@ class syncExcel(utils):
 
 
 if __name__ == '__main__':
-    sye = syncExcel(r'../data/sync_excel_data', 'file0.xlsx')
-    collect_file = ('file0.xlsx', r"../data/sync_excel_data/file0.xlsx")
+    """
+    
+    
+    
+    """
+    sye = syncExcel(r'../data/sync_excel', 'file0.xlsx')
+    collect_file = ('file0.xlsx', r"../data/sync_excel/file0.xlsx")
 
 
     def check_time_to_next_zero():
